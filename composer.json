@@ -1,5 +1,5 @@
 {
-  "name": "codestudiollc/sailfish-module-installer",
+  "name": "sailfish/module-installer",
   "description": "Install composer packages to a custom path (app/Modules) in a Sailfish Application",
   "type": "composer-plugin",
   "keywords": [
