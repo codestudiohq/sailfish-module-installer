@@ -1,0 +1,37 @@
+{
+  "name": "codestudiollc/sailfish-module-installer",
+  "description": "Install composer packages to a custom path (app/Modules) in a Sailfish Application",
+  "type": "composer-plugin",
+  "keywords": [
+    "Composer Installer",
+    "Module Driven Development",
+    "MDD",
+    "Laravel",
+    "Sailfish"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roshan Gautam",
+      "email": "roshan.gautam@hotmail.com",
+      "homepage": "http://roshangautam.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SailFish\\ModuleInstaller\\" : "src/"
+    }
+  },
+  "require": {
+      "composer-plugin-api": "^1.1"
+  },
+  "require-dev": {
+    "composer/composer": "^1.4"
+  },
+  "extra": {
+    "class": "SailFish\\ModuleInstaller\\Plugin",
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
